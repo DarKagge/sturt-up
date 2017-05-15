@@ -1,3 +1,4 @@
+@import url(../libs/font-awesome/css/font-awesome.min.css);
 body {
   font-size: 16px;
   min-width: 320px;
@@ -123,24 +124,22 @@ header {
 .navigation-search {
   position: absolute;
   top: 500px;
-  right: 500px; }
-  .navigation-search .navigation {
+  right: 320px; }
+  .navigation-search .navigation .height-tree {
     float: left; }
-    .navigation-search .navigation .height-tree {
+    .navigation-search .navigation .height-tree img {
       float: left; }
-      .navigation-search .navigation .height-tree img {
-        float: left; }
-      .navigation-search .navigation .height-tree ul {
-        float: left;
-        margin-top: -15px;
-        margin-left: 13px; }
-        .navigation-search .navigation .height-tree ul li {
-          margin: 17px 0;
-          color: black;
-          font-family: open-sans-cond-light;
-          font-size: 15px; }
-          .navigation-search .navigation .height-tree ul li:first-child {
-            margin-top: 5px; }
+    .navigation-search .navigation .height-tree ul {
+      float: left;
+      margin-top: -15px;
+      margin-left: 13px; }
+      .navigation-search .navigation .height-tree ul li {
+        margin: 17px 0;
+        color: black;
+        font-family: open-sans-cond-light;
+        font-size: 15px; }
+        .navigation-search .navigation .height-tree ul li:first-child {
+          margin-top: 5px; }
   .navigation-search .arrow-shape {
     float: left;
     width: 3px;
@@ -176,3 +175,75 @@ header {
         background-image: url("../img/play-1.png"); }
       .navigation-search .buttons-nav a:last-child {
         background-image: url("../img/play-2.png"); }
+
+.search {
+  height: 30px;
+  width: 208px;
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 29px;
+  border: 1px solid #d7d9da;
+  -webkit-box-shadow: 1px 1px 10px #c6daec;
+  box-shadow: 1px 1px 10px #c6daec; }
+
+.menu-search {
+  text-align: left;
+  padding-left: 11px;
+  padding-top: 8px;
+  float: left;
+  width: 10%; }
+  .menu-search ul li a {
+    display: inline-block; }
+    .menu-search ul li a span {
+      width: 16px;
+      height: 3px;
+      background-color: #ccdfeb;
+      display: block;
+      margin: 3px 0; }
+      .menu-search ul li a span:first-child {
+        margin-top: 0; }
+  .menu-search .in-search {
+    display: none; }
+
+.search-name {
+  float: left;
+  padding-left: 8px;
+  position: relative;
+  width: 90%; }
+  .search-name input {
+    width: 100%;
+    height: 34px;
+    background-color: transparent;
+    padding-left: 8px;
+    margin-top: -5px; }
+    .search-name input::-webkit-input-placeholder {
+      color: #7a868e;
+      font-size: 12px;
+      font-family: OpenSans-Semibold; }
+    .search-name input::-moz-placeholder {
+      color: #7a868e;
+      font-size: 12px;
+      font-family: OpenSans-Semibold; }
+    .search-name input:-moz-placeholder {
+      color: #7a868e;
+      font-size: 12px;
+      font-family: OpenSans-Semibold; }
+    .search-name input:-ms-input-placeholder {
+      color: #7a868e;
+      font-size: 12px;
+      font-family: OpenSans-Semibold; }
+  .search-name .button-s {
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    border: 1px solid #97b8ce;
+    -webkit-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0; }
+    .search-name .button-s a {
+      display: block;
+      width: 34px;
+      height: 27px;
+      background-color: #eff7fc; }
+      .search-name .button-s a i {
+        color: #496d8c; }

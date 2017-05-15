@@ -15,3 +15,9 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/open-sans-cond-light/open-sans-cond-light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"); }
