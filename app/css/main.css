@@ -52,28 +52,146 @@ footer {
     text-decoration: none; }
 
 /* Large Devices, Wide Screens */
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  .wrapper {
-    width: auto; }
-  .pad {
-    padding: 50px 5px !important; }
-  footer {
-    text-align: center; }
-    footer .wrapper {
-      width: auto; }
-    footer ul {
-      float: none;
-      display: inline-block;
-      text-align: center; }
-      footer ul li {
-        margin-bottom: 10px;
-        margin-right: 0;
-        float: none; }
-    footer .gs {
-      float: none;
-      display: block; } }
+@media only screen and (max-width: 1715px) {
+  .logo {
+    margin-left: 5px; }
+  .world-record {
+    margin-left: 80px; }
+  .height {
+    margin-left: 60px; }
+  .entry {
+    margin-right: 40px; }
+  .navigation-search {
+    right: 190px; } }
 
+@media only screen and (max-width: 1500px) {
+  .language {
+    margin-right: 0; }
+  .entry {
+    margin-left: 20px; } }
+
+@media only screen and (max-width: 1405px) {
+  .world-record {
+    margin-left: 40px; }
+  .height {
+    margin-left: 0px; } }
+
+@media only screen and (max-width: 1360px) {
+  .top-menu ul li {
+    margin: 0 5px; }
+  .navigation-search {
+    right: 50px; } }
+
+@media only screen and (max-width: 1300px) {
+  .christmas-tree .tree {
+    margin-top: 0; } }
+
+@media only screen and (max-width: 1169px) {
+  .logo {
+    float: none !important;
+    display: block;
+    text-align: center; }
+  .world-record {
+    float: none !important;
+    display: block;
+    text-align: center; }
+    .world-record p {
+      display: inline-block; }
+  .height {
+    float: none !important;
+    display: block; }
+  .top-menu {
+    display: block;
+    float: none !important;
+    text-align: center; }
+    .top-menu ul {
+      display: inline-block; }
+  .enter-for {
+    display: inline-block; }
+    .enter-for .entry {
+      float: left !important; }
+      .enter-for .entry a {
+        color: #fff; }
+    .enter-for .language {
+      float: left !important; }
+  header {
+    text-align: center; } }
+
+@media only screen and (max-width: 1000px) {
+  .navigation-search {
+    right: 10px; } }
+
+@media only screen and (max-width: 991px) {
+  .navigation-search {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-top: 25px;
+    text-align: center; }
+    .navigation-search .navigation {
+      display: inline-block; }
+    .navigation-search .search {
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 750px) {
+  .christmas-tree .tree img {
+    width: 100%; }
+  .christmas-tree .Toys img {
+    width: 95%; } }
+
+@media only screen and (max-width: 680px) {
+  .christmas-tree .Toys img {
+    width: 92%; } }
+
+@media only screen and (max-width: 670px) {
+  .christmas-tree .Toys img {
+    width: 90%; } }
+
+@media only screen and (max-width: 640px) {
+  .christmas-tree .Toys img {
+    width: 86%; } }
+
+@media only screen and (max-width: 620px) {
+  .christmas-tree .Toys img {
+    width: 84%; } }
+
+@media only screen and (max-width: 600px) {
+  .christmas-tree .Toys img {
+    width: 81%; } }
+
+@media only screen and (max-width: 580px) {
+  .christmas-tree .Toys img {
+    width: 78%; } }
+
+@media only screen and (max-width: 560px) {
+  .christmas-tree .Toys img {
+    width: 75%; } }
+
+@media only screen and (max-width: 540px) {
+  .christmas-tree .Toys img {
+    width: 72%; } }
+
+@media only screen and (max-width: 520px) {
+  .christmas-tree .Toys img {
+    width: 70%; } }
+
+@media only screen and (max-width: 500px) {
+  .christmas-tree .Toys img {
+    width: 74%; }
+  .christmas-tree .tree .Toys {
+    margin-left: -270px; } }
+
+@media only screen and (max-width: 480px) {
+  .christmas-tree .Toys img {
+    width: 72%; }
+  .christmas-tree .tree .Toys {
+    margin-left: -265px; } }
+
+@media only screen and (max-width: 460px) {
+  .christmas-tree .tree .Toys {
+    margin-left: -255px; } }
+
+/* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
