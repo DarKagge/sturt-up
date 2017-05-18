@@ -121,12 +121,9 @@ body textarea:required:valid {
 .circle-faq {
   width: 90px;
   height: 90px;
-  -webkit-border-radius: 120px;
-  border-radius: 120px;
-  background-color: rgba(255, 255, 255, 0.4);
   text-align: center; }
   .circle-faq img {
-    margin-top: 20px; }
+    width: 100%; }
 
 .right-faq {
   background-color: rgba(239, 249, 255, 0.7);
