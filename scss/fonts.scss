@@ -1,6 +1,8 @@
 @import "bourbon";
 
 @include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("roboto-light", "../fonts/roboto-light/roboto-light", $file-formats: eot woff ttf);
+@include font-face("roboto-light-italic", "../fonts/roboto-light-italic/roboto-light-italic", $file-formats: eot woff ttf);
 @include font-face("roboto-condensed", "../fonts/roboto-condensed/roboto-condensed", $file-formats: eot woff ttf);
 @include font-face("open-sans-cond-light", "../fonts/open-sans-cond-light/open-sans-cond-light", $file-formats: ttf);
 @include font-face("OpenSans-Semibold", "../fonts/OpenSans-Semibold/OpenSans-Semibold", $file-formats: ttf);

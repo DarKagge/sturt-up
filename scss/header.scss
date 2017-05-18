@@ -23,6 +23,12 @@ a,button,input,textarea{
 	}
 }
 
+
+.inner{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
 button{
 	&:hover{
 		cursor: pointer;
@@ -38,6 +44,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
+	min-height: 973px;
 }
 
 header{
@@ -72,6 +79,10 @@ header{
 
 		}
 	}
+}
+
+.enter-for{
+	float: right;
 }
 
 .height{
