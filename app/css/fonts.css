@@ -11,6 +11,12 @@
   src: url("../fonts/roboto-light/roboto-light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light/roboto-light.woff") format("woff"), url("../fonts/roboto-light/roboto-light.ttf") format("truetype"); }
 
 @font-face {
+  font-family: "roboto-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/roboto-bold/roboto-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold/roboto-bold.woff") format("woff"), url("../fonts/roboto-bold/roboto-bold.ttf") format("truetype"); }
+
+@font-face {
   font-family: "roboto-light-italic";
   font-style: normal;
   font-weight: normal;
@@ -33,3 +39,9 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"); }
